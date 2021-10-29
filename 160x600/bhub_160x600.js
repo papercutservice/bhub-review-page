@@ -1603,8 +1603,9 @@ if (reversed == null) { reversed = false; }
 	this.instance_5 = new lib.txt1602svg("synched",0);
 	this.instance_5.setTransform(0,-2.6,1,1,0,0,0,50.7,25.4);
 	this.instance_5.alpha = 0;
+	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).to({alpha:0.5},7).wait(38).to({startPosition:0},0).to({y:-57.6,alpha:1},7).wait(44).to({startPosition:0},0).to({y:-112.6,alpha:0.25},8).wait(43).to({startPosition:0},0).to({y:-167.6,alpha:0},9).wait(52).to({y:-222.6},0).wait(52).to({y:-277.6},0).wait(52).to({y:-332.6},0).wait(52));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(45).to({_off:false},0).to({y:-57.6,alpha:1},7).wait(44).to({startPosition:0},0).to({y:-112.6,alpha:0.25},8).wait(43).to({startPosition:0},0).to({y:-167.6,alpha:0},9).wait(52).to({y:-222.6},0).wait(52).to({y:-277.6},0).wait(52).to({y:-332.6},0).wait(52));
 
 	// txt-160-1
 	this.instance_6 = new lib.txt1601svg("synched",0);
